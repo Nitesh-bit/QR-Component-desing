@@ -83,3 +83,16 @@ h2 {
   top: 190px;
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 310px;
+    height: 480px;
+    display: inline-block;
+    position: relative;
+    left: 32px;
+    background-color: white;
+    top: 165px;
+    border-radius: 20px;
+  }
+}
